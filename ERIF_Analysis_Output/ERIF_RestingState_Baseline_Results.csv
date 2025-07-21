@@ -1,0 +1,6 @@
+file,t_score,r_score,group,subject
+S001R01.edf,0.19375,1.1643500786078342,Control,Subject_1
+S002R01.edf,0.15625,0.9557861847544002,Control,Subject_2
+S003R01.edf,0.1625,0.8199191786344897,Control,Subject_3
+S004R01.edf,0.16875,0.5626311377757254,Control,Subject_4
+S005R01.edf,0.1625,0.11115075318435572,Control,Subject_5
