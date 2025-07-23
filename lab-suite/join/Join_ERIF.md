@@ -1,3 +1,1 @@
-# Join ERIF Labs
-
-We welcome thinkers, builders, and mind-mappers.
+# Join ERIF Labs\n\nWant to collaborate? Fork the repo or submit an issue!

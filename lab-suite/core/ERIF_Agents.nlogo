@@ -1,1 +1,1 @@
-;; ERIF Agent Simulation NetLogo
+; ERIF Agent World Simulation\nto setup\nclear-all\nend\nto go\ntick\nend

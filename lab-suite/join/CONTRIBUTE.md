@@ -1,0 +1,1 @@
+# Contribute to ERIF\n\n- Fork the repo\n- Add your mind-mapping code\n- Submit a pull request
