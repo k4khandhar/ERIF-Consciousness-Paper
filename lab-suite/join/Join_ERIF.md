@@ -1,3 +1,3 @@
-# Join ERIF 🧠
+# Join ERIF Labs
 
-Want to collaborate? Fork the repo or submit an issue!
+We welcome thinkers, builders, and mind-mappers.
