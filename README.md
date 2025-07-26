@@ -3,7 +3,7 @@
 [![ERIF Map](docs/visuals/erif_map.png)](https://k4khandhar.github.io/ERIF-Consciousness-Paper)
 
 ## Overview
-ERIF is a 2D cognitive map modeling consciousness as a dynamic journey across Stability (T) and Integration (R). It applies to human brains, AI systems, and beyond. This repo contains the theory paper, simulations, open-source toolkit, and important research data from studies (now integrated from Drive).
+ERIF is a 2D cognitive map modeling consciousness as a dynamic journey across Stability (T) and Integration (R). It applies to human brains, AI systems, and beyond. This repo contains the theory paper, simulations, open-source toolkit, and important research data from studies (now integrated from Drive into /research/studies/).
 
 - **Key Idea**: Consciousness isn't static—it's movement through cognitive space.
 - **Built With**: NetLogo, Python, Colab, Plotly.
