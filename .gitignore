@@ -1,0 +1,14 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Temp files
+*.tmp
+*.bak
+
+# Environments
+.venv
+env/
