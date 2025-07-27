@@ -1,0 +1,1 @@
+Raw data files for ERIF studies. Load with pandas, e.g., pd.read_csv('sample_data.csv')

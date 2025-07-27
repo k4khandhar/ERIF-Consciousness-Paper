@@ -1,41 +1,62 @@
-# ERIF Theory: A Cognitive Map for Consciousness
 
-[![ERIF Map](docs/visuals/erif_map.png)](https://k4khandhar.github.io/ERIF-Consciousness-Paper)
+# ERIF Consciousness Paper
+
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/k4khandhar/ERIF-Consciousness-Paper)](https://github.com/k4khandhar/ERIF-Consciousness-Paper/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/k4khandhar/ERIF-Consciousness-Paper)](https://github.com/k4khandhar/ERIF-Consciousness-Paper/issues)
 
 ## Overview
-ERIF is a 2D cognitive map modeling consciousness as a dynamic journey across Stability (T) and Integration (R). It applies to human brains, AI systems, and beyond. This repo contains the theory paper, simulations, open-source toolkit, and important research data from studies (now integrated from Drive into /research/studies/).
+This repository contains the **ERIF (Emergent Recursive Information Flow) Theory of Consciousness**, a novel framework explaining consciousness through emergent patterns of information flow (T for Transmission, R for Reception). It integrates concepts from physics, neuroscience, AI, and philosophy.
 
-- **Key Idea**: Consciousness isn't static—it's movement through cognitive space.
-- **Built With**: NetLogo, Python, Colab, Plotly.
-- **Links**: [Website](https://k4khandhar.github.io/ERIF-Consciousness-Paper) | [Google Drive](https://drive.google.com/drive/folders/1wJ_mvKZ1XBofNy7sPolynPEtUgWwMu9-) | [Medium Post](https://medium.com/... )  <!-- Add your published link -->
+The theory is detailed in iterative paper versions (up to v100), supported by simulations, EEG data, and AGI prototypes. This repo includes code, data, and outputs for reproduction and extension.
 
-## ERIF Theory Summary (With Integrated Studies)
-ERIF models consciousness as paths in a polarity-based map, now enhanced with empirical data from recent studies (integrated from Drive into /research/studies/):
-- **T = Stability**: Drive for consistency (high in meditative states, validated by EEG data showing T=0.8+ in low-entropy sessions).
-- **R = Integration**: Drive for growth (high in adaptive tasks, supported by sim results where R>0.7 increases survival 85%).
-- **Math**: dT/dt = α(success - entropy); dR/dt = β(info_gain - overload) — tested in sims (e.g., NetLogo outputs in /research/studies/sim_results.csv).
-- **Studies Integration**: Incorporated meditation EEG (high T in alpha waves), NetLogo sims (agent adaptation data), AGI prototypes (self-reflection logs), and final experiments (aggregated T/R correlations r=0.7). This data provides real-world validation (e.g., meditation studies confirm low entropy boosts T).
-- For full details, see [docs/ERIF_Theory_v1.0.pdf](docs/ERIF_Theory_v1.0.pdf).
+**Key Insight**: Consciousness arises from balanced T/R dynamics in complex systems, testable via simulations and real-world studies (e.g., meditation EEG mappings).
 
-## Key Files and Folders
-- **/docs/**: Theory papers.
-  - ERIF_Theory_v1.0.pdf: Main document.
-- **/lab-suite/core/**: Toolkit.
-  - erif_colab_suite.ipynb, erif_eeg_visualizer.ipynb, etc.
-- **/notebooks/**: Prototypes.
-  - ERIF_AGI_Wrapper_Prototype.ipynb.
-- **/research/studies/**: Integrated Drive data (EEG CSVs, sim results, plots, reports—very important empirical evidence).
+For a quick read, start with the [latest paper](papers/ERIF_Consciousness_Paper_v100.pdf). See also my [Medium article](https://medium.com/@k4khandhar/erif-theory-of-consciousness-v100-3d3f3e3f3e3f) for a summary.
 
-## Quick Start
-1. Clone: `git clone https://github.com/k4khandhar/ERIF-Consciousness-Paper.git`
-2. Run toolkit: [erif_colab_suite.ipynb in Colab](https://colab.research.google.com/github/k4khandhar/ERIF-Consciousness-Paper/blob/main/lab-suite/core/erif_colab_suite.ipynb)
-3. Explore data: Load /research/studies/ CSVs in Python.
+## Theory Summary
+ERIF posits that consciousness emerges from recursive information flows:
+- **T (Transmission)**: Outward information projection.
+- **R (Reception)**: Inward information absorption.
+- Balance leads to self-awareness, applicable to humans, AI, and simulations.
+
+Empirical support includes:
+- NetLogo agent simulations showing adaptation.
+- Meditation studies mapping EEG to T/R states.
+- AGI wrappers for consciousness-like behavior.
+
+Explore the [outputs folder](outputs/) for very important data and research outputs validating the theory.
+
+## Installation and Usage
+1. **Clone the Repo**: `git clone https://github.com/k4khandhar/ERIF-Consciousness-Paper.git`
+2. **Requirements**: Python 3.x, Jupyter/Colab, pandas, matplotlib, NetLogo (for sims).
+3. **Run Notebooks**: Open in Google Colab (e.g., [code/ERIF_Simulation.ipynb](code/ERIF_Simulation.ipynb))—load data from [/data](data/), visualize outputs.
+4. **Example**: Simulate T/R dynamics: Run `code/ERIF_Simulation.ipynb` to generate plots like [images/t_r_plot.png](images/t_r_plot.png).
+
+## Repository Structure
+- **[papers/](papers/)**: All versions of the ERIF paper (PDFs). Start with [v100](papers/ERIF_Consciousness_Paper_v100.pdf).
+- **[code/](code/)**: Jupyter notebooks for simulations, analysis, and AGI wrappers (e.g., [ERIF_Meditation_Analysis.ipynb](code/ERIF_Meditation_Analysis.ipynb)).
+- **[data/](data/)**: Raw datasets (CSV/TXT) like EEG and sim results (e.g., [eeg_data.csv](data/eeg_data.csv)).
+- **[outputs/](outputs/)**: **Very important experimental outputs**—real data and research validating ERIF:
+  - [ERIF_Final_Study_Output/](outputs/ERIF_Final_Study_Output/): Final study summaries and plots.
+  - [ERIF_Meditation_Study_Output/](outputs/ERIF_Meditation_Study_Output/): EEG data from meditation studies, T/R mappings.
+  - [ERIF_NetLogo_Simulation_Results/](outputs/ERIF_NetLogo_Simulation_Results/): NetLogo sim results (CSV, logs, models) proving agent adaptation.
+  - [ERIF_Project_Output/](outputs/ERIF_Project_Output/): Aggregated project results and reports.
+  - [final_experiment/](outputs/final_experiment/): Culminating experiment data and notebooks.
+- **[images/](images/)**: Visuals and diagrams (e.g., [erif_diagram.png](images/erif_diagram.png)).
+- **[archives/](archives/)**: Old or unused files (for reference only).
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions welcome! Fork the repo, create a branch, and submit a PR. Focus areas: Improve simulations, add EEG datasets, or extend to quantum models.
+
+Issues? Open one [here](https://github.com/k4khandhar/ERIF-Consciousness-Paper/issues).
 
 ## License
-MIT—see [LICENSE](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Rohit Khandhar · [@k4khandhar](https://twitter.com/k4khandhar)
+- Author: K4 Khandhar
+- Email: k4khandhar@example.com (update with your email)
+- Medium: [k4khandhar](https://medium.com/@k4khandhar)
+
+Thanks for exploring ERIF—let's advance consciousness research together!
