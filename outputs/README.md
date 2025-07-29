@@ -1,1 +1,0 @@
-Experimental outputs. See ERIF_NetLogo_Simulation_Results for sim data.
