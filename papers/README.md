@@ -1,1 +1,0 @@
-This folder contains all versions of the ERIF paper. Start with the latest: ERIF_Consciousness_Paper_v100.pdf
