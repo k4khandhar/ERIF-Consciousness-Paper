@@ -1,1 +1,0 @@
-Code for ERIF experiments. Run in Colab: e.g., open ERIF_Simulation.ipynb
